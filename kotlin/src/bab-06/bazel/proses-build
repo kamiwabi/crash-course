@@ -1,0 +1,26 @@
+» bazel build :hello_kt
+INFO: Analysed target //:hello_kt (15 packages loaded).
+INFO: Found 1 target...
+INFO: From Compiling 1 Kotlin source files to hello_kt.jar:
+HINT: KotlinCompile will compile faster if you run: echo "build --strategy=KotlinCompile=worker" >>~/.bazelrc
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.protobuf.UnsafeUtil (file:/home/bpdp/.cache/bazel/_bazel_bpdp/5065c3c6fc68f783e56d61ad24b82899/external/io_bazel_rules_kotlin_protobuf_protobuf_java/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar) to field java.nio.Buffer.address
+WARNING: Please consider reporting this to the maintainers of com.google.protobuf.UnsafeUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Target //:hello_kt up-to-date:
+  bazel-bin/hello_kt.jar
+INFO: Elapsed time: 165.554s, Critical Path: 24.69s
+INFO: 4 processes: 3 processwrapper-sandbox, 1 worker.
+INFO: Build completed successfully, 15 total actions
+» bazel run :hello_kt
+INFO: Analysed target //:hello_kt (0 packages loaded).
+INFO: Found 1 target...
+Target //:hello_kt up-to-date:
+  bazel-bin/hello_kt.jar
+INFO: Elapsed time: 0.318s, Critical Path: 0.01s
+INFO: 0 processes.
+INFO: Build completed successfully, 1 total action
+INFO: Build completed successfully, 1 total action
+Hello, world!
+
