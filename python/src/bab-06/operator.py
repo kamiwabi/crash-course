@@ -54,8 +54,9 @@ print(x) # x = x lama / 2, hasil dibulatkan ke bawah = 27.5
          # dibulatkan 27
 x**=2
 print(x) # x = x lama pangkat 2 = 27 pangkat 2 = 729
+x = 7
 x&=2
-print(x)
+print(x) 
 x|=2
 print(x)
 x^=2
