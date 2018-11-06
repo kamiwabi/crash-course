@@ -14,7 +14,7 @@ else:
 
 input("Tekan sembarang tombol untuk meneruskan ... ")
 
-# akan ditampilkan angka 10 
+# akan ditampilkan angka 21 
 # dan seterusnya tidak akan berhenti
 # kecuali ditekan Ctrl-C
 while True:
