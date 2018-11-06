@@ -56,19 +56,49 @@ x**=2
 print(x) # x = x lama pangkat 2 = 27 pangkat 2 = 729
 x = 7
 x&=2
-print(x) 
+print(x) # x = x lama AND 2 = 7 and 2
+         # 7 = 0000 0111
+         # 2 = 0000 0010
+         # bit hidup jika di kedua operand hidup
+         # 0000 0010 = 2
+x = 7
 x|=2
-print(x)
+print(x) # x = x lama OR 2 = 7 or 2
+         # 7 = 0000 0111
+         # 2 = 0000 0010
+         # bit hidup jika di salah satu operand hidup
+         # 0000 0111 = 7
+x = 7
 x^=2
-print(x)
+print(x) # x = x lama XOR 2 = 7 xor 2
+         # 7 = 0000 0111
+         # 2 = 0000 0010
+         # bit hidup jika di salah satu operand hidup, 
+         # tapi tidak di keduanya
+         # 0000 0101 = 5
+x = 7
 x>>=2
-print(x)
+print(x) # x = x lama >> 2 = 7 >> 2
+         # 7 = 0000 0111
+         # 0000 0001 = 1
+x = 7
 x<<=2
-print(x)
-
+print(x) # x = x lama << 2 = 7 << 2
+         # 7 = 0000 0111
+         # 0001 1100 = 28
 print('Operator Logika')
-
+x = 3 > 1 and 2 < 19 # jika kedua sisi true -> true
+print(x)
+x = 3 > 4 or 2 < 10 # jika salah satu sisi benar -> true
+print(x)
+x = not(3 > 4) # not -> negasi
+print(x)
 print('Operator Keanggotaan / Membership')
-
+x = (2,5,9,8,1,9,7,2)
+print(9 in x)
+print(10 in x)
+print(10 not in x)
 print('Operator Identitas / Identity')
-
+x = 7
+print(x is 7)
+print(x is not 7)
