@@ -9,6 +9,10 @@ for a in range(20):
 for a in range(1, 5):
     print(a) # 1 -4
 
+for w in 'ABCDEFG':
+    print(w)
+
+# range(start, stop, step)
 for a in range(1, 5, 2):
     print(a) # 1, 3
 else:
