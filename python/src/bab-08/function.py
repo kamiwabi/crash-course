@@ -4,5 +4,7 @@ def jumlah(arg1):
         jml += 1
     return jml
 
-jml_str = jumlah("owaladahalh")
-print("String hwarakadah mempunyai " + str(jml_str) + " karakter")
+str_obj = "Wabi Teknologi Indonesia"
+jml_str = jumlah(str_obj)
+
+print(f'String {str_obj} mempunyai ' + str(jml_str) + ' karakter')
