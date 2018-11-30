@@ -10,17 +10,17 @@ def aksi(func, angka2):
 print(aksi(penjumlahan, [1, 2, 3, 4, 5]))
 
 # HOF - fungsi sebagai return value
-def p1():
+def remaja():
     return "remaja"
-def p2():
+def dewasa():
     return "dewasa"
 
 def person():
     umur = int(input("Umur anda: "))
 
     if umur <= 21:
-        return p1()
+        return remaja()
     else:
-        return p2()
+        return dewasa()
 
 print(person())
