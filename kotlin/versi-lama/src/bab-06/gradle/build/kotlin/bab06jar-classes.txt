@@ -1,0 +1,1 @@
+/home/bpdp/kerjaan/git-repos/oldstager/current/github/kamiwabi/crash-course/kotlin/src/bab-06/build/classes/kotlin/main/HelloKt.class

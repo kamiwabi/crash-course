@@ -1,0 +1,14 @@
+{
+  "tasks": [
+    {
+      "taskName": "hello:compile",
+      "inputChecksum": "f34f2d314e43a47debf6541bc2fceb21",
+      "outputChecksum": "f29f55df988446fd95392d7fc3f7ab05"
+    },
+    {
+      "taskName": "hello:assemble",
+      "inputChecksum": "f29f55df988446fd95392d7fc3f7ab05",
+      "outputChecksum": "a1a8f4951fd85fa0075647256914509f"
+    }
+  ]
+}
