@@ -1,6 +1,6 @@
 # Wabi Crash Course 
 
-![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)
+![Creative Commons License](img/cc-by-sa.png)
 
 Repo ini berisi semua materi crash course yang dibuat oleh [Wabi Teknologi](http://kamiwabi.id). Lisensi semua dokumen pada repo ini adalah [Creative Commons Atribution-ShareAlike 4.0 International License - CC-BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/). Secara umum, penggunaan lisensi ini mempunyai implikasi bahwa pengguna materi:
 
@@ -21,4 +21,4 @@ Engineering inquiries: engineering@kamiwabi.id
 Training inquiries: education@kamiwabi.id
 ```
 
-![Free Culture](free-culture.png)
+![Free Culture](img/free-culture.png)
