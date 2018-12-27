@@ -20,5 +20,3 @@ General inquiries: info@kamiwabi.id
 Engineering inquiries: engineering@kamiwabi.id
 Training inquiries: education@kamiwabi.id
 ```
-
-![Free Culture](img/free-culture.png)
